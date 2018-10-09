@@ -9,7 +9,11 @@ class Triangle
   end 
   
   def trinagle_type  
-    if @a = @b 
+    if @a == @b && @b == @c
+      :equilateral 
+    elsif @a == @b && @b != @c 
+      :isosceles
+    elsif @a == @b && @b != @c
       end 
   
   class TriangleError < StandardError 
