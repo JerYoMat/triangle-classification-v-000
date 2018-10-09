@@ -14,7 +14,9 @@ class Triangle
   
   def kind
     if @a + @b < @c || @a + @c < @b || @b + @c < @a 
-      
+      begin  
+        raise 
+      end 
     
     elsif  @a == @b && @b == @c
       :equilateral 
