@@ -8,14 +8,12 @@ class Triangle
     @c = length_three
   end 
   
-  def invalid_lengths
-  
-  end 
+
   
   def kind
     if @a + @b < @c || @a + @c < @b || @b + @c < @a 
       begin  
-        raise 
+        raise TriangleError 
       end 
     
     elsif  @a == @b && @b == @c
