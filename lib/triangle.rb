@@ -8,6 +8,8 @@ class Triangle
     @c = length_three
   end 
   
+  def 
+  
   class TriangleError < StandardError 
       
   end 
