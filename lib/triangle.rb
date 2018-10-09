@@ -8,9 +8,9 @@ class Triangle
     @c = length_three
   end 
   
-  def equilateral 
-    
-  end 
+  def trinagle_type  
+    if @a = @b 
+      end 
   
   class TriangleError < StandardError 
       
