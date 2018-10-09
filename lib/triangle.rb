@@ -13,7 +13,8 @@ class Triangle
   end 
   
   def kind
-    if @a + @b < 
+    if @a + @b < @c || @a + @c < @b || @b + @c < @a 
+      
     
     elsif  @a == @b && @b == @c
       :equilateral 
