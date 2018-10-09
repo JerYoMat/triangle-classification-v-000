@@ -1,15 +1,15 @@
 class Triangle
   # write code here
-  attr_accessor :length_one, :length_two, :length_three
+  attr_accessor :a, :b, :c 
   
   def initialize(length_one:, length_two:, length_three:)
-    @length_one = length_one
-    @length_two = length_two
-    @length_three = length_three
+    @a = length_one
+    @b = length_two
+    @c = length_three
   end 
   
   class TriangleError < StandardError 
-  
+      
   end 
    
   
