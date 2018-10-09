@@ -2,10 +2,10 @@ class Triangle
   # write code here
   attr_accessor :a, :b, :c 
   
-  def initialize(length_one:, length_two:, length_three:)
-    @a = length_one
-    @b = length_two
-    @c = length_three
+  def initialize(la, lb, lc)
+    @a = la 
+    @b = lb
+    @c = lc 
   end 
   
 
