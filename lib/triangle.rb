@@ -12,13 +12,21 @@ class Triangle
   
   end 
   
-  def kind   
-    if @a == @b && @b == @c
+  def kind
+    if @a + @b < 
+    
+    elsif  @a == @b && @b == @c
       :equilateral 
     elsif @a == @b && @b != @c 
       :isosceles
-    elsif @b == @c && @b != @c
-    
+    elsif @b == @c && @a != @b
+      :isosceles
+    elsif  @a == @c && @a != @b 
+      :isosceles
+    elsif @a != @b && @b != @c && @a != @c 
+      :scalene 
+    end 
+      
     end   
   end 
   
