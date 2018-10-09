@@ -8,13 +8,19 @@ class Triangle
     @c = length_three
   end 
   
-  def trinagle_type  
+  def invalid_lengths
+  
+  end 
+  
+  def kind   
     if @a == @b && @b == @c
       :equilateral 
     elsif @a == @b && @b != @c 
       :isosceles
-    elsif @a == @b && @b != @c
-      end 
+    elsif @b == @c && @b != @c
+    
+    end   
+  end 
   
   class TriangleError < StandardError 
       
